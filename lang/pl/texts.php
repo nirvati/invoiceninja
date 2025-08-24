@@ -3543,7 +3543,7 @@ Gdy przelewy zostaną zaksięgowane na Twoim koncie, wróć do tej strony i klik
     'convert_currency_help' => 'Ustaw kurs wymiany',
     'expense_settings' => 'Ustawienia wydatków',
     'clone_to_recurring' => 'Powiel do odnawialnych',
-    'crypto' => 'Krypto',
+    'crypto' => 'Bitcoin/Lightning',
     'user_field' => 'Pole użytkownika',
     'variables' => 'Zmienne',
     'show_password' => 'Pokaż hasło',

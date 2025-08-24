@@ -3546,7 +3546,7 @@ Ko imate zneske, se vrnite na to stran plačilnega sredstva in kliknite na "Comp
     'convert_currency_help' => 'Nastavite menjalni tečaj',
     'expense_settings' => 'Nastavitve stroška',
     'clone_to_recurring' => 'Kloniraj v ponavljajoče se',
-    'crypto' => 'Kripto',
+    'crypto' => 'Bitcoin/Lightning',
     'user_field' => 'Uporabniško polje',
     'variables' => 'Spremenljivke',
     'show_password' => 'Prikaži geslo',

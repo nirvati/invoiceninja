@@ -2459,7 +2459,7 @@ Quando tiver os valores dos depósitos, volte a esta página e conclua a verific
     'enable_sepa' => 'Aceitar SEPA',
     'enable_bitcoin' => 'Aceitar Bitcoin',
     'iban' => 'IBAN',
-    'sepa_authorization' => 'Ao fornecer um IBAN e ao confirmar este pagamento, está a autorizar a :company e a Stripe, a nossa intermediária de pagamento, a enviar instruções ao seu banco para 
+    'sepa_authorization' => 'Ao fornecer um IBAN e ao confirmar este pagamento, está a autorizar a :company e a Stripe, a nossa intermediária de pagamento, a enviar instruções ao seu banco para
 debitar da sua conta de acordo com essas instruções. Está elegível a um reembolso desse mesmo débito sob os termos e condições acordados entre si e o banco. O reembolso deve ser pedido nas 8 (oito) semanas seguintes a partir da data do débito.',
     'recover_license' => 'Recuperar Licença',
     'purchase' => 'Comprar',
@@ -3544,7 +3544,7 @@ debitar da sua conta de acordo com essas instruções. Está elegível a um reem
     'convert_currency_help' => 'Defina uma taxa de câmbio',
     'expense_settings' => 'Configurações das despesas',
     'clone_to_recurring' => 'Duplicar recorrência',
-    'crypto' => 'Criptomoeda',
+    'crypto' => 'Bitcoin/Lightning',
     'user_field' => 'Campo do utilizador',
     'variables' => 'Variável',
     'show_password' => 'Mostrar Palavra-passe',

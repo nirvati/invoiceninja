@@ -1245,7 +1245,7 @@ $lang = array(
     'remove' => 'Îndepărtați',
     'payment_method_removed' => 'Metodă de plată îndepărtată.',
     'bank_account_verification_help' => 'Am efectuat două depuneri, în contul dumneavoastră, cu descrierea „VERIFICARE”. Aceste depuneri vor fi afișate în extrasul dumneavoastră în 1-2 zile lucrătoare. Introduceți sumele de mai jos.  ',
-    'bank_account_verification_next_steps' => 'Am efectuat două depuneri, în contul dumneavoastră, cu descrierea „VERIFICARE”. Aceste depuneri vor fi afișate în extrasul dumneavoastră în 1-2 zile lucrătoare. Inserați sumele de mai jos. 
+    'bank_account_verification_next_steps' => 'Am efectuat două depuneri, în contul dumneavoastră, cu descrierea „VERIFICARE”. Aceste depuneri vor fi afișate în extrasul dumneavoastră în 1-2 zile lucrătoare. Inserați sumele de mai jos.
 Odată ce sumele au ajuns la dumneavoastră, reveniți la pagina cu metode de plată și accesați „Finalizați verificarea”, lângă cont.',
     'unknown_bank' => 'Bancă Necunoscută',
     'ach_verification_delay_help' => 'Veți putea folosi contul, odată ce verificarea a fost finalizată. Verificările se efectuează în 1-2 zile lucrătoare.',
@@ -3546,7 +3546,7 @@ Odată ce sumele au ajuns la dumneavoastră, reveniți la pagina cu metode de pl
     'convert_currency_help' => 'Setați un curs de schimb',
     'expense_settings' => 'Setări cheltuieli',
     'clone_to_recurring' => 'Multiplicați recurențele',
-    'crypto' => 'Crypto',
+    'crypto' => 'Bitcoin/Lightning',
     'user_field' => 'Câmp utilizator',
     'variables' => 'Variabile',
     'show_password' => 'Afișați parola',

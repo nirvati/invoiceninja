@@ -96,7 +96,7 @@ $lang = array(
     'powered_by' => 'Unterstützt durch',
     'no_items' => 'Keine Elemente',
     'recurring_invoices' => 'Wiederkehrende Rechnungen',
-    'recurring_help' => '<p>Senden Sie Ihren Kunden automatisch die gleichen Rechnungen wöchentlich, zweimonatlich, monatlich, vierteljährlich oder jährlich zu.</p> 
+    'recurring_help' => '<p>Senden Sie Ihren Kunden automatisch die gleichen Rechnungen wöchentlich, zweimonatlich, monatlich, vierteljährlich oder jährlich zu.</p>
  <p>Verwenden Sie :MONTH, :QUARTER oder :YEAR für dynamische Daten. Grundlegende Mathematik funktioniert auch, zum Beispiel :MONTH-1.</p>
  <p>Beispiele für dynamische Rechnungsvariablen:</p>
  <ul>
@@ -3547,7 +3547,7 @@ https://invoiceninja.github.io/docs/migration/#troubleshooting',
     'convert_currency_help' => 'Wechselkurs festsetzen',
     'expense_settings' => 'Ausgaben-Einstellungen',
     'clone_to_recurring' => 'Duplizieren zu Wiederkehrend',
-    'crypto' => 'Verschlüsselung',
+    'crypto' => 'Bitcoin/Lightning',
     'user_field' => 'Benutzerfeld',
     'variables' => 'Variablen',
     'show_password' => 'Zeige Passwort',

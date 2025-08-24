@@ -3546,7 +3546,7 @@ Pasi të keni pranuar shumat, kthehuni në faqen e metodave të pagesës dhe kli
     'convert_currency_help' => 'Set an exchange rate',
     'expense_settings' => 'Expense Settings',
     'clone_to_recurring' => 'Clone to Recurring',
-    'crypto' => 'Crypto',
+    'crypto' => 'Bitcoin/Lightning',
     'user_field' => 'User Field',
     'variables' => 'Variables',
     'show_password' => 'Show Password',

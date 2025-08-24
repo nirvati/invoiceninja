@@ -96,7 +96,7 @@ $lang = array(
     'powered_by' => 'Drevet av',
     'no_items' => 'Ingen elementer',
     'recurring_invoices' => 'Gjentakende Fakturaer',
-    'recurring_help' => '<p>Automatisk send kunder de samme fakturaene ukentlig, annenhver uke, månedlig, kvartalsvis eller årlig. 
+    'recurring_help' => '<p>Automatisk send kunder de samme fakturaene ukentlig, annenhver uke, månedlig, kvartalsvis eller årlig.
         <p>Bruk :MONTH, :QUARTER or :YEAR for dynamiske datoer. Enkel matte virker også, for eksempel :MONTH-1.</p>
         <p>Eksempler på dynamiske faktura-variabler:</p>
         <ul>
@@ -3545,7 +3545,7 @@ $lang = array(
     'convert_currency_help' => 'Set an exchange rate',
     'expense_settings' => 'Expense Settings',
     'clone_to_recurring' => 'Clone to Recurring',
-    'crypto' => 'Crypto',
+    'crypto' => 'Bitcoin/Lightning',
     'user_field' => 'User Field',
     'variables' => 'Variables',
     'show_password' => 'Show Password',

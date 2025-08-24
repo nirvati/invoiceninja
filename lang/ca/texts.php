@@ -96,7 +96,7 @@ $lang = array(
     'powered_by' => 'Funciona amb',
     'no_items' => 'No hi ha cap element',
     'recurring_invoices' => 'Factures recurrents',
-    'recurring_help' => '<p>Envieu automàticament als clients les mateixes factures setmanalment, bimensuals, mensuals, trimestrals o anuals.</p> 
+    'recurring_help' => '<p>Envieu automàticament als clients les mateixes factures setmanalment, bimensuals, mensuals, trimestrals o anuals.</p>
 <p>Utilitzeu :MONTH, :QUARTER o :YEAR per a dates dinàmiques. Les funcions matemàtiques bàsiques també funcionen, per exemple: :MONTH-1 </p>
 <p>Exemples de variables dinàmiques de factures:</p>
 <ul>
@@ -3545,7 +3545,7 @@ $lang = array(
     'convert_currency_help' => 'Set an exchange rate',
     'expense_settings' => 'Expense Settings',
     'clone_to_recurring' => 'Clone to Recurring',
-    'crypto' => 'Crypto',
+    'crypto' => 'Bitcoin/Lightning',
     'user_field' => 'User Field',
     'variables' => 'Variables',
     'show_password' => 'Show Password',

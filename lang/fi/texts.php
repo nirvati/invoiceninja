@@ -3545,7 +3545,7 @@ Kun saat summat, palaa tälle maksutapasivulle ja klikkaa "Saata loppuun todenta
     'convert_currency_help' => 'Aseta vaihtokurssi',
     'expense_settings' => 'Kulu -asetukset',
     'clone_to_recurring' => 'Kloonaa toistuvaan',
-    'crypto' => 'Krypto',
+    'crypto' => 'Bitcoin/Lightning',
     'user_field' => 'Käyttäjäkenttä',
     'variables' => 'Muuttujat',
     'show_password' => 'Näytä salasana',

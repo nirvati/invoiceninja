@@ -3542,7 +3542,7 @@ Quando tiver as quantias, volte a esta página de formas de pagamento e clique "
     'convert_currency_help' => 'Defina uma taxa de câmbio',
     'expense_settings' => 'Configurações das despesas',
     'clone_to_recurring' => 'Clonar recorrência',
-    'crypto' => 'Criptomoeda',
+    'crypto' => 'Bitcoin/Lightning',
     'user_field' => 'Campo do usuário',
     'variables' => 'Variável',
     'show_password' => 'Mostrar senha',

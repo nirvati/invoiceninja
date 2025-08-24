@@ -3541,7 +3541,7 @@ Una vez que tenga los montos, vuelva a esta página de métodos de pago y haga c
     'convert_currency_help' => 'Establecer un tipo de cambio',
     'expense_settings' => 'Configuración de Gastos',
     'clone_to_recurring' => 'Clonar a Recurrente',
-    'crypto' => 'Crypto',
+    'crypto' => 'Bitcoin/Lightning',
     'user_field' => 'Campo de Usuario',
     'variables' => 'Variables',
     'show_password' => 'Mostrar Contraseña',
@@ -5016,7 +5016,7 @@ Una vez que tenga los montos, vuelva a esta página de métodos de pago y haga c
     'lang_French - Swiss' => 'Francés - Suizo',
     'currency_swazi_lilangeni' => 'Lilangeni suazi',
     'income' => 'Recomendado',
-    'amount_received_help' => 'Ingrese un valor aquí si el importe total recibido fue MÁS que el importe de la factura, o si registra un pago sin facturas. 
+    'amount_received_help' => 'Ingrese un valor aquí si el importe total recibido fue MÁS que el importe de la factura, o si registra un pago sin facturas.
 De lo contrario, este campo deberá dejarse en blanco.',
     'vendor_phone' => 'Teléfono del proveedor',
     'mercado_pago' => 'Mercado Pago',

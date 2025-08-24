@@ -3542,7 +3542,7 @@ Kom terug naar deze betaalmethode pagina zodra u de bedragen heeft ontvangen en 
     'convert_currency_help' => 'Stel een ruilwaarde in van de valuta',
     'expense_settings' => 'Uitgave-instellingen',
     'clone_to_recurring' => 'Maak een kopie voor herhaling',
-    'crypto' => 'Crypto',
+    'crypto' => 'Bitcoin/Lightning',
     'user_field' => 'Gebruikersveld',
     'variables' => 'Variabelen',
     'show_password' => 'Wachtwoord weergeven',

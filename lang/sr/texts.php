@@ -1245,7 +1245,7 @@ $lang = array(
     'remove' => 'Ukloni',
     'payment_method_removed' => 'Način plaćanja je uklonjen.',
     'bank_account_verification_help' => 'Na vaš račun smo uplatili dva depozita sa opisom „VERIFIKACIJA“. Potrebno je 1-2 dana da se ovi depoziti pojave na vašem izvodu. Molimo unesite iznose dole. ',
-    'bank_account_verification_next_steps' => 'Na vaš račun smo uplatili dva depozita sa opisom „VERIFIKACIJA“. Potrebno je 1-2 dana da se ovi depoziti pojave na vašem izvodu. Molimo unesite iznose dole. 
+    'bank_account_verification_next_steps' => 'Na vaš račun smo uplatili dva depozita sa opisom „VERIFIKACIJA“. Potrebno je 1-2 dana da se ovi depoziti pojave na vašem izvodu. Molimo unesite iznose dole.
 Kada budete imali iznose, vratite se na ovu stranicu sa načinima plaćanja i kliknite na „Dovrši verifikaciju“ pored računa.',
     'unknown_bank' => 'Nepoznata banka',
     'ach_verification_delay_help' => 'Moći ćete da koristite nalog nakon što završite verifikaciju. Verifikacija obično traje 1-2 radna dana. ',
@@ -3545,7 +3545,7 @@ Kada budete imali iznose, vratite se na ovu stranicu sa načinima plaćanja i k
     'convert_currency_help' => 'Podesite kurs',
     'expense_settings' => 'Podešavanja troškova',
     'clone_to_recurring' => 'Kloniraj u ponavljajuće',
-    'crypto' => 'Crypto',
+    'crypto' => 'Bitcoin/Lightning',
     'user_field' => 'Polje korisnika',
     'variables' => 'Varijable',
     'show_password' => 'Prikaži lozinku',

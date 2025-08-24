@@ -96,7 +96,7 @@ $lang = array(
     'powered_by' => 'Kasutusel',
     'no_items' => 'Üksusi pole',
     'recurring_invoices' => 'Perioodilised Arved',
-    'recurring_help' => '<p>Saada klientidele automaatselt samu arveid kord nädalas, kord kuus, kord kahe kuu tagant, kord kvartalis või kord aastas. 
+    'recurring_help' => '<p>Saada klientidele automaatselt samu arveid kord nädalas, kord kuus, kord kahe kuu tagant, kord kvartalis või kord aastas.
 <p>Dünaamiliste kuupäevade jaoks kasutage :KUU, :KVARTAL või :AASTA. Ka elementaarne matemaatika töötab, näiteks :KUU-1.</p>
  <p>Dünaamiliste arvemuutujate näited:</p>
  <ul>
@@ -936,7 +936,7 @@ $lang = array(
  <li>Täna on 15. kuupäev, tähtaeg on kuu 15. päev. Tähtaeg on 15. päev <strong>järgmisel</strong> kuul.
 </li>
  <li>Täna on reede, tähtaeg on 1. reede pärast seda. Tähtaeg on järgmisel reedel, mitte täna.
-</li> 
+</li>
 </ul>',
     'due' => 'Tähtaeg',
     'next_due_on' => 'Järgmine tähtaeg: :date',
@@ -3545,7 +3545,7 @@ $lang = array(
     'convert_currency_help' => 'Määrake vahetuskurss',
     'expense_settings' => 'Kuluseaded',
     'clone_to_recurring' => 'Klooni korduvasse',
-    'crypto' => 'Krüpto',
+    'crypto' => 'Bitcoin/Lightning',
     'user_field' => 'Kasutaja väli',
     'variables' => 'Muutujad',
     'show_password' => 'Näita parooli',

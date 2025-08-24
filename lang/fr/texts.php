@@ -3545,7 +3545,7 @@ Lorsque les montant apparaîtront sur votre relevé, veuillez revenir sur cette 
     'convert_currency_help' => 'Définir un taux de change',
     'expense_settings' => 'Réglages des dépenses',
     'clone_to_recurring' => 'Cloner en récurrence',
-    'crypto' => 'Crypto',
+    'crypto' => 'Bitcoin/Lightning',
     'user_field' => 'Champs utilisateur',
     'variables' => 'Variables',
     'show_password' => 'Montrer le mot de passe',

@@ -3542,7 +3542,7 @@ Lorsque les montant apparaîtront sur votre relevé, veuillez revenir sur cette 
     'convert_currency_help' => 'Définir un taux d\'échange',
     'expense_settings' => 'Paramètres des dépenses',
     'clone_to_recurring' => 'Dupliquer en récurrence',
-    'crypto' => 'Crypto',
+    'crypto' => 'Bitcoin/Lightning',
     'user_field' => 'Champs utilisateur',
     'variables' => 'Variables',
     'show_password' => 'Afficher le mot de passe',
@@ -5300,7 +5300,7 @@ Lorsque les montant apparaîtront sur votre relevé, veuillez revenir sur cette 
     'merge_to_pdf' => 'Fusionner avec le PDF',
     'latest_requires_php_version' => 'Note: La dernière version requiert PHP :version',
     'auto_expand_product_table_notes' => 'Développer automatiquement les notes du tableau de produits',
-    'auto_expand_product_table_notes_help' => ' 
+    'auto_expand_product_table_notes_help' => '
 Développe automatiquement la section des notes dans le tableau de produits pour afficher plus de lignes.',
     'institution_number' => 'Numéro d\'institution',
     'transit_number' => 'Numéro de transit',
