@@ -108,6 +108,7 @@ use Illuminate\Contracts\Translation\HasLocalePreference;
  * @property-read \Illuminate\Database\Eloquent\Collection<int, \App\Models\SystemLog> $system_logs
  * @property-read \Illuminate\Database\Eloquent\Collection<int, \App\Models\Task> $tasks
  * @property-read \Illuminate\Database\Eloquent\Collection<int, \App\Models\RecurringInvoice> $recurring_invoices
+ * @property-read \Illuminate\Database\Eloquent\Collection<int, \App\Models\Location> $locations
  * @method static \Illuminate\Database\Eloquent\Builder|Client exclude($columns)
  * @method static \Database\Factories\ClientFactory factory($count = null, $state = [])
  * @method static \Illuminate\Database\Eloquent\Builder|Client filter(\App\Filters\QueryFilters $filters)
@@ -131,6 +132,16 @@ class Client extends BaseModel implements HasLocalePreference
     use ClientGroupSettingsSaver;
     use Excludable;
     use Searchable;
+
+    /**
+     * Get the index name for the model.
+     *
+     * @return string
+     */
+    public function searchableAs(): string
+    {
+        return 'clients_v2';
+    }
 
     protected $presenter = ClientPresenter::class;
 
@@ -256,9 +267,9 @@ class Client extends BaseModel implements HasLocalePreference
         return [
             'id' => $this->company->db.":".$this->id,
             'name' => $name,
-            'is_deleted' => $this->is_deleted,
+            'is_deleted' => (bool)$this->is_deleted,
             'hashed_id' => $this->hashed_id,
-            'number' => $this->number,
+            'number' => (string)$this->number,
             'id_number' => $this->id_number,
             'vat_number' => $this->vat_number,
             'balance' => $this->balance,

@@ -139,7 +139,7 @@ class LoginController extends BaseController
                         ->header('X-App-Version', config('ninja.app_version'))
                         ->header('X-Api-Version', config('ninja.minimum_client_version'));
                 }
-            } elseif ($user->google_2fa_secret && !$request->has('one_time_password')) {
+            } elseif (strlen($user->google_2fa_secret ?? '') > 2 && !$request->has('one_time_password')) {
                 return response()
                     ->json(['message' => ctrans('texts.invalid_one_time_password')], 401)
                     ->header('X-App-Version', config('ninja.app_version'))
@@ -328,8 +328,6 @@ class LoginController extends BaseController
 
             Auth::login($existing_login_user, false);
             /** @var \App\Models\User $user */
-
-            // $user = auth()->user();
 
             $existing_login_user->update([
                 'oauth_user_id' => $user->id,

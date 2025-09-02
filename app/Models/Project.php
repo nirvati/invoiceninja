@@ -57,6 +57,9 @@ use Illuminate\Database\Eloquent\Relations\HasMany;
  * @method static \Illuminate\Database\Eloquent\Builder|Project withoutTrashed()
  * @property-read \Illuminate\Database\Eloquent\Collection<int, \App\Models\Document> $documents
  * @property-read \Illuminate\Database\Eloquent\Collection<int, \App\Models\Task> $tasks
+ * @property-read \Illuminate\Database\Eloquent\Collection<int, \App\Models\Expense> $expenses
+ * @property-read \Illuminate\Database\Eloquent\Collection<int, \App\Models\Invoice> $invoices
+ * @property-read \Illuminate\Database\Eloquent\Collection<int, \App\Models\Quote> $quotes
  * @mixin \Eloquent
  */
 class Project extends BaseModel
@@ -65,6 +68,16 @@ class Project extends BaseModel
     use PresentableTrait;
     use Filterable;
     use Searchable;
+
+    /**
+     * Get the index name for the model.
+     *
+     * @return string
+     */
+    public function searchableAs(): string
+    {
+        return 'projects_v2';
+    }
 
     protected $fillable = [
         'name',
@@ -103,8 +116,8 @@ class Project extends BaseModel
             'id' => (string)$this->company->db.":".$this->id,
             'name' => ctrans('texts.project') . " " . $this->number . ' | ' . $this->name .  " | " . $this->client->present()->name(),
             'hashed_id' => $this->hashed_id,
-            'number' => $this->number,
-            'is_deleted' => $this->is_deleted,
+            'number' => (string)$this->number,
+            'is_deleted' => (bool)$this->is_deleted,
             'task_rate' => (float) $this->task_rate,
             'budgeted_hours' => (float) $this->budgeted_hours,
             'due_date' => $this->due_date,
